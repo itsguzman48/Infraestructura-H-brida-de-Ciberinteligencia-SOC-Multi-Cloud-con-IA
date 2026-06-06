@@ -5,6 +5,18 @@
 Proyecto de arquitectura de sistemas y ciberinteligencia diseñado para capturar, analizar y clasificar ataques SSH en tiempo real. Este sistema despliega honeypots en múltiples nubes, centraliza la recolección a través de redes privadas y utiliza inteligencia artificial (Llama 3.1) para automatizar el triaje y mapear tácticas contra el framework MITRE ATT&CK.
 
 ## 📊 Resultados Destacados (En Producción)
+### Visualización y Análisis (Grafana & Power BI)
+
+El pipeline de datos alimenta de forma asíncrona cuadros de mando operativos en Grafana (tiempo real) e informes ejecutivos en Power BI (histórico).
+
+*(Mapa de calor global de ataques - Microsoft Power BI)*
+![Mapa de orígenes](assets/mapa.png)
+
+*(Triaje en vivo de los comandos inyectados por los atacantes en el Honeypot - Grafana SOC)*
+![Dashboard Comandos](assets/grafana-comandos.png)
+
+*(Detección de campaña dirigida contra nodos Solana basada en el top de contraseñas de fuerza bruta)*
+![Top Contraseñas](assets/grafana-passwords.png)
 Durante su operación en producción, el sistema capturó e interpretó ataques reales globales:
 * **Eventos capturados:** +35.600 intentos SSH en 14 días.
 * **Orígenes detectados:** IPs de 80 países distintos.
