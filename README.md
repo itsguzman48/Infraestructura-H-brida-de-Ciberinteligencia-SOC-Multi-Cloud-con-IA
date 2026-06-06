@@ -9,7 +9,7 @@ Proyecto de arquitectura de sistemas y ciberinteligencia diseñado para capturar
 
 El pipeline de datos alimenta de forma asíncrona cuadros de mando operativos en Grafana (tiempo real) e informes ejecutivos en Power BI (histórico).
 
-*(Mapa de calor global de ataques - Microsoft Power BI)*
+*(Grafico de ataques mundial en grafana)*
 ![Mapa de orígenes](assets/mapa.png)
 
 *(Triaje en vivo de los comandos inyectados por los atacantes en el Honeypot - Grafana SOC)*
