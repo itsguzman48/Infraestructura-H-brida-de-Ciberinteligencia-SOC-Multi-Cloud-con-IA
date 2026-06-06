@@ -1,0 +1,17 @@
+services:
+  cowrie:
+    image: cowrie/cowrie:latest
+    restart: always
+    ports:
+      - "22:2222/tcp"
+      - "23:2223/tcp"
+    volumes:
+      - ./cowrie/var/log/cowrie:/home/cowrie/cowrie/var/log/cowrie
+      - ./cowrie/var/lib/cowrie:/home/cowrie/cowrie/var/lib/cowrie
+    environment:
+      - COWRIE_TELNET_ENABLED=yes
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
