@@ -1,5 +1,5 @@
 # 🛡️ Infraestructura Híbrida de Ciberinteligencia: SOC Multi-Cloud con IA
-
+![Mapa ataques](assets/mapa_ataques.png)
 ![Python](https://img.shields.io/badge/Python-3.12-blue) ![Docker](https://img.shields.io/badge/Docker-Cowrie-blue) ![WireGuard](https://img.shields.io/badge/WireGuard-VPN-red) ![Llama 3.1](https://img.shields.io/badge/AI-Llama_3.1-orange) ![Azure](https://img.shields.io/badge/Cloud-Azure-blue) ![DigitalOcean](https://img.shields.io/badge/Cloud-DigitalOcean-blue)
 
 Proyecto de arquitectura de sistemas y ciberinteligencia diseñado para capturar, analizar y clasificar ataques SSH en tiempo real. Este sistema despliega honeypots en múltiples nubes, centraliza la recolección a través de redes privadas y utiliza inteligencia artificial (Llama 3.1) para automatizar el triaje y mapear tácticas contra el framework MITRE ATT&CK.
